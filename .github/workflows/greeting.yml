@@ -1,0 +1,10 @@
+name: gt
+on:
+  push:
+    branches: [main]
+jobs:
+  msg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run:  echo "Nice to here"
