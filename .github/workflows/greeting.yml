@@ -1,7 +1,7 @@
 name: sechdule job
 on:
   schedule:
-      - cron: "05 20 06 11 04"
+      - cron: "09 15 06 11 04"
 jobs:
   message:
     runs-on: ubuntu-latest
