@@ -1,0 +1,14 @@
+name: greeting
+on:
+  push:  
+    branches: [main]
+jobs:
+    msg:
+      runs-on:  ubuntu-latest
+      steps:
+       - name : print
+         run:  echo "welcome to here"
+        
+        
+    
+  
